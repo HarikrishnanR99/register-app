@@ -1,7 +1,7 @@
 pipeline {
     agent { label "jenkinsagent" }
     tools {
-	    jdk 'Java17'
+	    jdk 'java17'
 	    maven 'harimaven'
     }
     environment {
